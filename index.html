@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="imagenes/encriptado.png">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Encriptador</title>
+
+    </head>
+
+    <body>
+        <header>
+            <a href="https://app.aluracursos.com/user/marwinmramirezr" target="_blank" rel="noopener noreferrer"><img src="imagenes/Logo-alura.png" alt="logo de Alura"></a>
+        </header>
+
+        <main>
+            <section class="captura">
+
+                <textarea class="input-texto" cols="40" rows="6" placeholder="ingrese texto aquí"></textarea>
+                
+                
+                <div class="botones">
+
+                    <button type="button" class="encriptar" onclick="btnEncriptar()">Encriptar <img class="imgbtn" src="imagenes/lock.png"></button>
+
+                    <button type="button" class="desencriptar" onclick="btnDesencriptar()">Desencriptar <img class="imgbtn" src="imagenes/unlock.png"></button>
+                
+                </div>
+
+            </section>
+            <section class="mensaje-box">
+
+                <textarea class="mensaje"></textarea>
+
+                <div class="botones">
+
+                    <button type="button" class="btcopiar" onclick="copiar()">Copiar <img class="imgbtn" src="imagenes/copia.png"></button>
+                    
+                </div>
+            
+            </section>
+        </main>
+
+        <footer>
+            <a href="https://github.com/MikVet139" target="_blank" rel="noopener noreferrer"><img  src="imagenes/github.png"></a>
+            <p>Dev. Marwin M. Ramirez R.</p>
+        </footer>
+    </body>
+</html>
+
+<script src="script.js"></script>

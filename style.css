@@ -1,0 +1,86 @@
+header{
+    margin-top: 20px;
+}
+
+main{
+    display: flex;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+body {
+    width: fit-content;
+    position: relative;
+    margin: auto;
+    background-color: #FFFFFF;
+}
+
+.input-texto {
+    text-transform:lowercase;
+    border: none;
+    outline: none;
+    position: relative;
+    resize: none;
+    height: 200px ;
+    width: 270px;
+}
+
+.mensaje {
+    position: relative;
+    resize: none;
+    height: 200px ;
+    width: 270px;
+    border-radius: 5px;
+    padding-left: 2px;
+    border-style: dashed;
+    background-image: url("imagenes/Busqueda.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 180px;
+    text-align: center;
+    
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.imgbtn{
+    margin-left: 6px;
+}
+.encriptar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 7px 9px;
+    border: 1px solid #2e518b;
+    border-radius: 20px;
+}
+
+.desencriptar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 7px 9px;
+    border: 1px solid #2e518b;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.btcopiar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 7px 9px;
+    border: 1px solid #2e518b;
+    border-radius: 20px;
+}
+footer{
+    margin: 5% 25%;
+}
+footer p{
+    display: inline;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 6px;
+}
