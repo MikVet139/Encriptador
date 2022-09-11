@@ -1,20 +1,17 @@
 header{
     margin-top: 20px;
 }
-
 main{
     display: flex;
     margin-left: 80px;
     margin-top: 10px;
 }
-
 body {
     width: fit-content;
     position: relative;
     margin: auto;
     background-color: #FFFFFF;
 }
-
 .input-texto {
     text-transform:lowercase;
     border: none;
@@ -24,7 +21,6 @@ body {
     height: 200px ;
     width: 270px;
 }
-
 .mensaje {
     position: relative;
     resize: none;
