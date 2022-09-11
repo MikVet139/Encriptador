@@ -40,8 +40,7 @@ body {
     text-align: center;
     
 }
-
-.botones {
+.botones{
     display: flex;
     flex-direction: row;
     margin-top: 20px;
@@ -49,16 +48,17 @@ body {
 .imgbtn{
     margin-left: 6px;
 }
-.encriptar{
+.btnencriptar{
     position: relative;
     display: flex;
     align-items: center;
     padding: 7px 9px;
     border: 1px solid #2e518b;
     border-radius: 20px;
+    cursor: pointer;
+    transition: 1s all;
 }
-
-.desencriptar {
+.btndesencriptar {
     position: relative;
     display: flex;
     align-items: center;
@@ -66,14 +66,23 @@ body {
     border: 1px solid #2e518b;
     border-radius: 20px;
     margin-left: 20px;
+    cursor: pointer;
+    transition: 1s all;
 }
-.btcopiar{
+.btncopiar{
     position: relative;
     display: flex;
     align-items: center;
     padding: 7px 9px;
     border: 1px solid #2e518b;
     border-radius: 20px;
+    cursor: pointer;
+    transition: 1s all;
+}
+.btnencriptar:hover,.btndesencriptar:hover,.btncopiar:hover{
+    background:#2e4a8d;
+    color: white;
+    transform: scale(1.1);
 }
 footer{
     margin: 5% 25%;
